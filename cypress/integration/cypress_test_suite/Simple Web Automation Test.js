@@ -2,7 +2,7 @@
 
 context('Simple Web Automation Test(CRUD)', () => {
   beforeEach(() => {
-    cy.visit('http://35.234.31.120:8081')
+    cy.visit('https://reactjs-frontend-heroku.herokuapp.com')
   })
 
   it('1. Delete - Remove all Tutorials', () => {
